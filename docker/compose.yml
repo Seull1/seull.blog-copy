@@ -33,7 +33,7 @@ services:
     expose:
       - "80"
     environment:
-      - VIRTUAL_HOST=aws.google.com
+      - VIRTUAL_HOST=Jerry.com
       - VIRTUAL_PORT=80
 
   blog_b:
@@ -51,6 +51,6 @@ services:
     expose:
       - "80"
     environment:
-      - VIRTUAL_HOST=aws.google.com
+      - VIRTUAL_HOST=Tom.com
       - VIRTUAL_PORT=80
 
