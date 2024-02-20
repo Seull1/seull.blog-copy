@@ -6,7 +6,7 @@ RUN apt install -y git
 RUN apt install cron
 
 RUN rm -rf /var/www/html
-RUN git clone https://github.com/Seull1/seull.blog-copy.git /var/www/html
+RUN git clone --branch Tom https://github.com/Seull1/seull.blog-copy.git /var/www/html
 
 COPY pull.sh /var/www/html
 
